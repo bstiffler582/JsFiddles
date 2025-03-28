@@ -1,3 +1,9 @@
+// a hierarchal search/filter function
+// returns the full path of an object (the object and its parent[s]), but no non-matching siblings
+// uses recursive reduce implementation and does not mutate the original list
+// fun but probably worthless
+
+// sample data - hierarchal list
 const arr = [
   {
     value: 'Miss1',
